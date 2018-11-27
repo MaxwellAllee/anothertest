@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html,
+body{
+    background: url(./assets/images/bg.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh; 
+    position: relative;
+
+
+}
+
+h1,
+h2,
+h3,
+h4,
+a,
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+footer {
+    background: #131527;
+    position: absolute;
+    left: 0;
+    bottom: -10;
+    right: 0;
+}
+
+.footer-logo {
+    width: 200px;
+    clear: both;
+}
